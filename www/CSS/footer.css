@@ -1,0 +1,66 @@
+footer
+{
+    display: flex;
+    align-items: stretch;
+    background: #202020;
+    padding: 20px 0px;
+}
+footer > div:first-child
+{
+    border-left: none;
+}
+footer > div
+{
+    text-align: center;
+    border-left: 1px dashed #707070;
+    width: calc(25% - 40px);
+    padding: 10px 20px;
+}
+footer > div > h1
+{
+
+    font: normal 17px 'Roboto Condensed', sans-serif;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+}
+footer > div > p
+{
+    font: normal 15px 'Roboto Condensed', sans-serif;
+    color: #707070;/*c0c0c0*/
+}
+
+footer > div > p > a
+{
+    display: inline-block;
+    font: normal 15px 'Roboto Condensed', sans-serif;
+    color: #a5a5a5;
+    margin-bottom: 5px;
+}
+footer > div > p > a:hover
+{
+    color: #e0e0e0;
+}
+footer > div > p > a > img
+{
+    margin: 5px 3px 0px 0px;
+    width: 26px;
+    height: auto;
+}
+footer > div > p > a > img:last-child
+{
+    margin: 5px 0px 0px 0px;
+}
+footer > div > p > a.telegram
+{
+    color: #616161;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px;
+    background: #2c2c2c;
+
+}
+footer > div > p > a.telegram:hover
+{
+    color: #e0e0e0;
+    background: #ca1616;
+}

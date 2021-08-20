@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    transition: 0.3s;
+}
+body
+{
+    background: #dedede;
+}
+#main
+{
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    background: #fff;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    width: auto;
+    height: 30px;
+    padding: 15px 30px;
+    background: #202020;
+    box-shadow: 1px 3px 10px #3a3a3a;
+}
+header > div
+{
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    width: 33.33%;
+}
+header > div:nth-child(1)
+{
+    font: normal 15px 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+header > div:nth-child(2)
+{
+    justify-content: center;
+    font: normal 20px 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+header > div:nth-child(3)
+{
+    justify-content: flex-end;
+}
+
+ul.registration li
+{
+    display: inline-block;
+    list-style-type: none;
+    font: normal 15px 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+ul.registration li:hover
+{
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+#content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-flex;
+    width: 100%;
+    height: 500px;
+}
+.selectionWindow
+{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background: #eeeeee;
+    border: 1px solid #dfdfdf;
+}
+.selectionWindow > form >input
+{
+    display: inline;
+    background: none;
+    border: none;
+    outline: none;
+}
+#selection
+{    
+    width: 500px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    padding: 20px 20px 0px 20px;
+    box-shadow: 0px 5px 20px #252525;
+}  
+
+#selection h1
+{
+    display: block;
+    font: normal 20px 'Roboto Condensed', sans-serif;
+    color: #000;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #feb70d;
+}
+.twoBox
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    margin-bottom: 20px;
+
+    margin-top: 20px;
+}
+.twoBox > div:nth-child(1)
+{
+    width: 50%;
+    padding: 15px 0px;
+}
+.twoBox > div:nth-child(2)
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 15px 0px;
+    border-left: 1px solid #dfdfdf;
+}
+.twoBox > div > p
+{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    font: normal 14px 'Roboto Condensed', sans-serif;
+}
+.twoBox > div > a
+{
+    display: block;
+    width: auto;
+    padding: 7px;
+    background: #feb70d;
+    color: #fff;
+    font: normal 14px 'Roboto Condensed', sans-serif;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.twoBox > div > a:hover
+{
+    background: #ffc320;
+}
+.twoBox > div > a:active
+{
+    background: #ecb41c;
+}

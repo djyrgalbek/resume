@@ -1,0 +1,61 @@
+#sidePanelAside
+{
+    width: 100%;
+    min-height: 1000px;
+    background: #fff;
+}
+.logoBox
+{
+    width: auto;
+    padding: 30px;
+    background: #f1f1f1;
+}
+.logoName
+{
+    font: bold 30px 'Roboto Condensed', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+}
+.logoText
+{
+    font: normal 15px 'Roboto Condensed', sans-serif;
+    color: #979797;
+    line-height: 15px;
+}
+
+.Job,.Personal
+{
+    width: auto;
+    padding: 30px 30px 0px 30px;
+}
+.Job h2,.Personal h2
+{
+    font: normal 15px 'Roboto Condensed', sans-serif;
+    color: #000;
+    margin-bottom: 15px;
+}
+.Job ul ,.Personal ul
+{
+    margin-bottom: 25px;
+}
+.Job ul li
+{
+    list-style-type: none;
+    font: normal 15px 'Roboto Condensed', sans-serif;
+    color: #0f6acf;
+    line-height: 25px;
+}
+.Personal ul li{
+    list-style-type: none;
+    font: normal 15px 'Roboto Condensed', sans-serif;
+    color: #cd197a;
+    line-height: 25px;
+}
+.Job ul li:hover,.Personal ul li:hover
+{
+    text-decoration: underline;
+}
+.Job ul li:active,.Personal ul li:active
+{
+    text-decoration: none;
+}

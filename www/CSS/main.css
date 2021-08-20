@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    transition: 0.3s;
+}
+body
+{
+    background: #dedede;
+}
+#main
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    display: -webkit-flex;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: row;
+    margin: auto;
+    width: 1200px;
+    background: #fff;
+}
+
+#main .main-box:nth-child(1)
+{
+    width: 100%;
+}
+#main .main-box:nth-child(2)
+{
+    width: 20%;
+}
+
+#main .main-box:nth-child(3)
+{
+    width: 80%;
+}
+
+.Shadow_block
+{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    overflow-y: auto; 
+    background: #0000003f;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; 
+}
